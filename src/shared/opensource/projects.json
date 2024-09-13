@@ -1,28 +1,6 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "DigitGlyph",
-      "createdAt": "",
-      "url": "https://github.com/Gokul-Raja84/DigitGlyph",
-      "description": "A Handwritten Digit Recognition Machine Learning Web App with accuracy of 99.15%",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "Machine Learning",
-          "iconifyClass": "devicon:tensorflow"
-        },
-        {
-          "name": "Github Pages",
-          "iconifyClass": "simple-icons:githubpages"
-        }
-      ]
-    },
-    {
       "id": "MDEwOlJlcG9zaXRvcnkzMjcyMjI5Njk=",
       "name": "My Portfolio",
       "createdAt": "",
@@ -50,7 +28,7 @@
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "ImaGen-AI",
+      "name": "Mern Stack Development",
       "createdAt": "",
       "url": "https://github.com/Gokul-Raja84/ImaGenAI-DALLE-MERN",
       "description": "AI Image Generation in MERN with DALL·E !",
@@ -101,28 +79,6 @@
         {
           "name": "Pandas",
           "iconifyClass": "devicon-plain:pandas-wordmark"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "Java Projects",
-      "createdAt": "",
-      "url": "https://github.com/Gokul-Raja84/Java-Projects",
-      "description": "A range of Java projects designed to develop engaging command-line applications, games and useful tools, ideal for those eager to learn Java",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Java",
-          "iconifyClass": "devicon:java-wordmark"
-        },
-        {
-          "name": "Command Line",
-          "iconifyClass": "flat-color-icons:command-line"
-        },
-        {
-          "name": "Coding games",
-          "iconifyClass": "arcticons:games-2"
         }
       ]
     }

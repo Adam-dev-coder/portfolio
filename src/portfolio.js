@@ -7,31 +7,31 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Gokul Raja⚡Portfolio",
+  title: "Adam Hitomi⚡Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Gokul Raja Portfolio",
+    title: "Adam Hitomi Portfolio",
     type: "website",
-    url: "http://gokul-raja84.github.io/",
+    url: "https://github.com/Adam-dev-coder",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Gokul Raja",
-  logo_name: "Gokul Raja",
+  title: "Adam Hitomi",
+  logo_name: "Adam Hitomi",
   nickname: "Software Developer 💻",
   subTitle:
     "A passionate individual who always thrives to work on developing end to end products and building scalable, high impact projects and technical systems.",
   resumeLink: "https://gokul-raja84.github.io/My-Resume/",
-  githubProfile: "https://github.com/Gokul-Raja84",
+  githubProfile: "https://github.com/Adam-dev-coder",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Gokul-Raja84",
+    link: "https://github.com/Adam-dev-coder",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -43,28 +43,10 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:gokulraja840@gmail.com",
+    link: "mailto:adamhitomi6@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/gokul._raja._/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
-  {
-    name: "Gokul's Blog",
-    link: "https://gokulraja.hashnode.dev/",
-    fontAwesomeIcon: "fa-hashnode",
-    backgroundColor: "#1877F2",
-  },
-  {
-    name: "X-Twitter",
-    link: "https://x.com/_iamGokulRaja_",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
+  }
 ];
 
 const skills = {
@@ -78,14 +60,6 @@ const skills = {
         "⚡ Developing Web backend in Node, Express & Flask",
       ],
       softwareSkills: [
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "devicon:java-wordmark",
-          style: {
-            backgroundColor: "#",
-            color: "",
-          },
-        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -179,7 +153,6 @@ const skills = {
             color: "",
           },
         },
-
         {
           skillName: "Figma",
           fontAwesomeClassname: "logos:figma",
@@ -190,68 +163,68 @@ const skills = {
         },
       ],
     },
-    {
-      title: "AI, ML & Data Analysis",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing scalable models for various Machine Learning and statistical use cases",
-        "⚡ Experience of working on Machine Learning projects",
-        "⚡ Data quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "logos:python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+    // {
+    //   title: "AI, ML & Data Analysis",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing scalable models for various Machine Learning and statistical use cases",
+    //     "⚡ Experience of working on Machine Learning projects",
+    //     "⚡ Data quantitative modelling for dynamic forecasting and time series analysis",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "logos:python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
 
-        {
-          skillName: "SQL",
-          fontAwesomeClassname: "logos:mysql",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Data Analysis & Visualization",
-          fontAwesomeClassname: "carbon:data-volume",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "devicon-plain:django-wordmark",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Excel",
-          fontAwesomeClassname: "vscode-icons:file-type-excel",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Linux",
-          fontAwesomeClassname: "devicon:linux",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-      ],
-    },
+    //     {
+    //       skillName: "SQL",
+    //       fontAwesomeClassname: "logos:mysql",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Data Analysis & Visualization",
+    //       fontAwesomeClassname: "carbon:data-volume",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Django",
+    //       fontAwesomeClassname: "devicon-plain:django-wordmark",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Excel",
+    //       fontAwesomeClassname: "vscode-icons:file-type-excel",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Linux",
+    //       fontAwesomeClassname: "devicon:linux",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //   ],
+    // },
 
     // {
     //   title: "Cloud Infra-Architecture",
@@ -372,7 +345,7 @@ const competitiveSites = {
       style: {
         color: "#000000",
       },
-      profileLink: "https://github.com/Gokul-Raja84",
+      profileLink: "https://github.com/Adam-dev-coder",
     },
     {
       siteName: "HackerRank",
@@ -380,7 +353,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/gokulraja840",
+      profileLink: "https://github.com/Adam-dev-coder",
     },
   ],
 };
@@ -500,7 +473,7 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#ffffff",
     },
-  ],
+  ]
 };
 
 // Experience Page
@@ -520,8 +493,8 @@ const experience = {
           company: "",
           company_url: "https://www.tiktok.com/en/",
           logo_path: "tiktok_logo.png",
-          duration: "Currently Present in ",
-          location: "Chennai / Madurai, Tamil Nadu, India",
+          duration: "",
+          location: "",
           description:
             "Improving my skillset each and every day. If you've come this far in my portfolio, it might mean you have an opportunity for me. I'd love to connect and discuss how I can contribute to your team or project. Help me take the next step in my career journey !",
           color: "#000000",
@@ -536,8 +509,8 @@ const experience = {
           company: "Cosmic Crafts",
           company_url: "https://cosmiccrafts.netlify.app/",
           logo_path: "tiktok_logo.png",
-          duration: "July 2023 - October 2023",
-          location: "SRMIST, Chennai",
+          duration: "",
+          location: "",
           description:
             "Led a student community in concept development and client engagement for app, web, and design solutions, showcasing leadership, strong teamwork and multitasking skills; Developed and deployed websites and projects, actively contributing to coding, testing, and enhancing user experience.",
           color: "#000000",
@@ -552,7 +525,7 @@ const experience = {
           company: "Information Technology Department",
           company_url: "https://srmrmp.edu.in/",
           location:
-            "SRM Institute of Science and Technology, Ramapuram, Chennai",
+            "",
           description:
             "Coordinated students and tasks as a Department Representative, ensuring smooth communication and efficient task management within the IT Department.",
           color: "#D83B01",
@@ -562,28 +535,11 @@ const experience = {
           company: "Information Technology Department",
           company_url: "https://srmrmp.edu.in/",
           location:
-            "SRM Institute of Science and Technology, Ramapuram, Chennai",
-          duration: "July 2023 - Febraury, 2024",
+            "",
+          duration: "",
           description:
             "Served as one of the Placement Representative for the IT Department, assisting students in scheduling and organizing placement drives.",
           color: "#D83B01",
-        },
-      ],
-    },
-    {
-      title: "Blog",
-      work: true,
-      experiences: [
-        {
-          title: "Technical content writer",
-          company: "Gokul's Blog - gokulraja.hashnode.dev",
-          company_url: "https://gokulraja.hashnode.dev",
-          logo_path: "",
-          duration: "July 2024 - Present",
-          location: "",
-          description:
-            "Currently developing my technical writing skills by building and writing blogs on various topics, including Python, JavaScript frameworks, Machine Learning, and Generative AI. Hey, if you’re experienced in tech blogging, help me out!",
-          color: "#000000",
         },
       ],
     },
@@ -599,30 +555,12 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on two research papers / projects and ACGAN Project has been accepted for publication in the Journal of Current Research in Engineering and Science.",
-  avatar_image_path: "projects_image.svg",
+  
 };
 
 const publications = {
   data: [
-    {
-      id: "",
-      name: "Math Scribble",
-      createdAt: "",
-      description:
-        "Project on Deep Learning for Real time Handwritten Math Equations Recognition and Solving for Students",
-      url: "",
-    },
-    {
-      id: "",
-      name: "ACGAN - Network security deicision making",
-      createdAt: "",
-      description:
-        "Paper on Enhance Network Security Decision Making using ACGAN Machine Learning for unbalanced data in Network attacks",
-      url: "",
-    },
+    
   ],
 };
 
@@ -635,8 +573,7 @@ const contactPageData = {
       <span>
         Be it for a project, a part-time role, a presentation, or simply to say
         hello, I'm always happy and looking forward to hearing from you.
-        <br /> I can help you with Python, ML, SQL, Data Analysis, Web Dev and
-        UI/UX.
+        <br /> I can help you with JavaScript, TypeScript, Python, SQL, Web Dev and UI/UX.
       </span>
     ),
   },
@@ -644,7 +581,7 @@ const contactPageData = {
     title: "Aspiration",
     subtitle:
       "I am actively seeking thrilling opportunities where I can contribute and grow. Explore my GitHub to discover my skills and projects, and feel free to reach out if you have a role that aligns with my talents and aspirations.",
-    link: "https://github.com/Gokul-Raja84",
+    link: "https://github.com/Adam-dev-coder",
     avatar_image_path: "code.png",
   },
   addressSection: {
@@ -661,7 +598,7 @@ const contactPageData = {
 };
 
 console.log(
-  "%c Designed and Developed by Gokul Raja⚡",
+  "%c Designed and Developed by Adam Hitomi⚡",
   "background-image: linear-gradient(90deg,#abc4ff,#D5CFD6); color: black;font-weight:1000;font-size:1rem; padding:20px;"
 );
 
